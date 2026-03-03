@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### 3. Launch the Environment
 Open Jupyter to view and run the notebook:
 ```bash
-jupyter notebook notebooks/churn_prediction_aws.ipynb
+jupyter notebook notebooks/Customer_churn_prediction.ipynb
 ```
 
 **Note:** The raw data files are not included in this repository. The notebook is configured to pull the required dataset directly from Amazon S3.
