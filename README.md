@@ -23,7 +23,9 @@ I challenged the standard 0.5 probability threshold. By shifting the threshold t
 | Model | Accuracy | Churn Recall (Sensitivity) |
 | :--- | :--- | :--- |
 | **Logistic Regression (Baseline)** | 82.40% | 0.64 |
-| **Optimized XGBoost (Final)** | **80.00%** | **0.67 (Winner)** |
+| **Optimized XGBoost (Final)** | **80.00%** | **0.67** |
 
 ## 🏗️ Deployment Strategy
 The pipeline is designed for **MLOps**. By staging data in S3 and using SageMaker's modular training, the model can be retrained automatically as customer behavior "drifts," ensuring the intelligence remains sharp as the business scales.
+
+<img width="522" height="552" alt="Customer_churn_Confusion_Matrix" src="https://github.com/user-attachments/assets/7fcd8b3c-0920-4dfa-9b33-cd3802a524e9" />
